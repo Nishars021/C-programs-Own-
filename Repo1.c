@@ -9,8 +9,7 @@ int main()
 }
 int fact(n)
 {
-    if(n==0)
-    {
+    if(n==0) {
         return 1;
     }
     int fact=n*fact(n-1);
